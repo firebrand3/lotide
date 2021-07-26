@@ -26,6 +26,8 @@ const assertArraysEqual = function(match) {
   }
 };
 
+
+//function to flatten array elements, works for only 1 level of nesting
 const flatten = function(input) {
   let result = [];
   //console.log(result);
@@ -46,4 +48,8 @@ const flatten = function(input) {
   return result;
 };
 
-console.log(flatten([[1, 7], [3, 4], 5, [6]]));
+//Alternate flatten function using the .flat method for all levels of nesting
+
+//const flatten = (input) => {return (input.flat(Infinity))}
+
+console.log(flatten([[1, 7], [3, 4], 5, [6, ["x", "y", [0, 9]]]]));
