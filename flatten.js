@@ -50,6 +50,6 @@ const flatten = function(input) {
 
 //Alternate flatten function using the .flat method for all levels of nesting
 
-//const flatten = (input) => {return (input.flat(Infinity))}
+// const flatten = (input) => {return (input.flat(Infinity))}
 
 console.log(flatten([[1, 7], [3, 4], 5, [6, ["x", "y", [0, 9]]]]));
