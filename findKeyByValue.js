@@ -17,7 +17,7 @@ const bestTVShowsByGenre = {
 
 //my solution using the for..in loop; Object.keys method not used
 const findKeyByValue = function(obj, val){
-let result = [];
+// let result = [];
   for (const key in obj) {
   if (obj[key] === val) {
     return(key);
