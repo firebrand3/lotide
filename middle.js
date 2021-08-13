@@ -1,7 +1,4 @@
-// const eqArrays = require("./eqArrays");
-// const assertArraysEqual = require("./assertArraysEqual");
-
-const middle = function(input) {
+const middle = function (input) {
   let arrayLength = input.length;
   let result = [];
   let i = 0;
@@ -13,7 +10,7 @@ const middle = function(input) {
     result.push(input[i - 1], input[i]);
   } else if (arrayLength % 2 !== 0) {
     i = Math.round(arrayLength / 2);
-    result.push(i);
+    result.push(input[i - 1]);
   }
   return result;
 };
