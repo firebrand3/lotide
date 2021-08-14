@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@firebrand3/lotide",
   "version": "1.0.0",
-  "description": "",
-  "main": "assertArraysEqual.js",
+  "description": "This is my first project while completing the web-developer-flex program at LHL, this project is based on Lodash",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/firebrand3/lotide.git"
   },
-  "author": "",
+  "author": "Asim Awan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/firebrand3/lotide/issues"
